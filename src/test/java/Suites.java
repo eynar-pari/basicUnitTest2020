@@ -6,4 +6,5 @@ import org.junit.runners.Suite;
         TestingBasic.class
 })
 public class Suites {
+
 }
