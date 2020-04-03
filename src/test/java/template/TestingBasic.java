@@ -1,3 +1,5 @@
+package template;
+
 import org.junit.*;
 
 public class TestingBasic {
@@ -12,23 +14,35 @@ public class TestingBasic {
         System.out.println("Actions to execute before each @Test");
     }
 
-    @Test(timeout = 1000)
-    public void tittleTest1(){
+    @Test
+        public void tittleTest1P(){
         System.out.println("Test Case 1 - Steps - Verifications");
 
 
     }
+      @Test
+        public void tittleTest1PA(){
+        System.out.println("Test Case 1 - Steps - Verifications");
 
-    @Ignore("BUG111")
-    @Test
-    public void tittleTest2(){
-        System.out.println("Test Case 2 - Steps - Verifications");
-    }
 
-    @Test (expected = ArithmeticException.class)
-    public void tittleTest3(){
-        System.out.println("Test Case 3 - Steps - Verifications");
     }
+//    @Test(timeout = 1000)
+//    public void tittleTest1(){
+//        System.out.println("Test Case 1 - Steps - Verifications");
+//
+//
+//    }
+
+//    @Ignore("BUG111")
+//    @Test
+//    public void tittleTest2(){
+//        System.out.println("Test Case 2 - Steps - Verifications");
+//    }
+//
+//    @Test (expected = ArithmeticException.class)
+//    public void tittleTest3(){
+//        System.out.println("Test Case 3 - Steps - Verifications");
+//    }
 
     @After
     public void after(){
