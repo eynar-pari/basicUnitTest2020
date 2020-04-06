@@ -9,6 +9,7 @@ public class Calculadora {
     public int add(int a, int b){
         return a+b;
     }
+
     public int rest(int a, int b){
         try {
             Thread.sleep(2000);
@@ -19,8 +20,10 @@ public class Calculadora {
     }
 
     public int mult(int a, int b){
-        return a*b;
+        //not implemented
+        return 0;
     }
+
     public int div(int a,  int b){
         if (b ==0 )
             new ArithmeticException(" EXCEPTION !! division entre 0 no esta permitido");
@@ -28,7 +31,5 @@ public class Calculadora {
         int result= a/b;
         return result;
     }
-
-
 }
 
