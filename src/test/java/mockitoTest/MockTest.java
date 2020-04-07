@@ -21,8 +21,10 @@ public class MockTest {
         Assert.assertEquals("ERROR en factorial",expectedResult,actualResult);
     }
 
+
+
     @Test
-    public void testMockedWithVerificartion(){
+    public void testMockedWithVerification(){
         Mockito.when(serviceMocked.mult(1,1)).thenReturn(1);
         Mockito.when(serviceMocked.mult(1,2)).thenReturn(2);
         Mockito.when(serviceMocked.mult(2,3)).thenReturn(6);
