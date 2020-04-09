@@ -2,14 +2,23 @@ package calculadora;
 
 public class Calculadora {
 
+    int totalResult=0;
     public Calculadora(){
 
     }
 
     public int add(int a, int b){
+        totalResult=totalResult+(a+b);
         return a+b;
     }
 
+    public void clean(){
+        totalResult=0;
+    }
+
+    public int getTotalResult(){
+        return totalResult;
+    }
     public int rest(int a, int b){
         try {
             Thread.sleep(2000);
