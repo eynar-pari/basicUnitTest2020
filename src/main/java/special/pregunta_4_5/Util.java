@@ -6,7 +6,7 @@ public class Util {
     /**
      * cantidad de ORIGEN equivale a  ACAMBIAR
      * ie. ORIGEN=BOLIVIANOS equivale a ACAMBIAR=1 DOLAR
-     * 7 Bolivianos equivale a 1 Dolar gsgsgsgs
+     * 7 Bolivianos equivale a 1 Dolar gsgs
      * Retorna 7;
      * @param origen
      * @param aCambiar
