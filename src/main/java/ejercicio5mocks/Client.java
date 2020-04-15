@@ -1,9 +1,9 @@
 package ejercicio5mocks;
 
 public class Client {
-    int id;
-    String name;
-    int amountAvaiable;
+    public int id;
+    public String name;
+    public int amountAvaiable;
 
     public Client(){
 
